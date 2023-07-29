@@ -11,10 +11,10 @@ import colors from '../config/colors';
 function AppIcon({
   source,
   title,
-  backgroundColor = colors.gray,
+  backgroundColor = colors.backgroundColor,
   borderRadius = 100,
-  iconImageSize = 20,
-  iconColor = colors.red,
+  iconImageSize = 25,
+  iconColor,
   padding = 10,
   onPress,
 }) {
